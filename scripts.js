@@ -99,8 +99,8 @@ $(document).ready(function() { /* instruçao jquery = inicia script somente quan
     //parallax = imagem fixa = ja ta pronto pq eu importei no começo
     setTimeout(function() { //pra carregar as imagens da pagina primeiro (Evita bugs)
 
-        $('#data-area').parallax({imageSrc: '/img/Catedral.jpg'});
-        $('#apply-area').parallax({imageSrc: '/img/pattern.jpg'});
+        $('#data-area').parallax({imageSrc: 'img/Catedral.jpg'});
+        $('#apply-area').parallax({imageSrc: 'img/pattern.jpg'});
 
     }, 250); //250 milesimos
 
