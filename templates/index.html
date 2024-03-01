@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-        <link href="styles.css" rel="stylesheet" >
+        <link href="/static/styles.css" rel="stylesheet" >
 
         <title>DRAKONIA WIKI</title>
 
@@ -24,7 +24,7 @@
         <!-- Font Awesome -->
         <script src="https://kit.fontawesome.com/47814a68c0.js" crossorigin="anonymous"></script>
         <!-- Progress Bar -->
-        <script src="progressbar.min.js"></script>
+        <script src="/static/progressbar.min.js"></script>
         <!-- Parallax -->
         <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
     </head>
@@ -34,7 +34,7 @@
             <div class = "container" id="nav-container">
                 <nav class = "navbar navbar-expand-lg fixed-top" id="nav">
                     <a href="#" class="navbar-brand">
-                        <img src="img/DrakoniaLogoPNG.png" alt="Drakonia LOGO" style="width:90px;height:90px;"> DRAKONIA WIKI
+                        <img src="/img/DrakoniaLogoPNG.png" alt="Drakonia LOGO" style="width:90px;height:90px;"> DRAKONIA WIKI
                     </a>
                     <button id = "---" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
                     aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,20 +42,19 @@
                     </button >
                     <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
                         <div class="navbar-nav">
-                            <a class="nav-item nav-link" id="home-menu">Home</a>
-                            <a class="nav-item nav-link" id="arcs-menu">Arcos</a>
-                            <a class="nav-item nav-link" id="characters-menu">Personagens</a>
-                            <a class="nav-item nav-link" id="one-shots-menu">One-Shots</a>
-                            <a class="nav-item nav-link" id="contact-menu">Contato</a>
+                            <a href="#" class="nav-item nav-link" id="home-menu">Home</a>
+                            <a href="#mainSlider" class="nav-item nav-link" id="arcs-menu">Arcos</a>
+                            <a href="#characters" class="nav-item nav-link" id="characters-menu">Personagens</a>
+                            <a href="#time-line" class="nav-item nav-link" id="one-shots-menu">One-Shots</a>
+                            <a href="#contact-area" class="nav-item nav-link" id="contact-menu">Contato</a>
 
                         </div>
                     </div>
                 </nav>
             </div>
         </header>
+
         <main>
-
-
                 <!-- slider -->
                 <div id="mainSlider" class="carousel slide" data-ride="carousel">
                   <ol class="carousel-indicators">
@@ -70,9 +69,7 @@
                   </ol>
                   <div class="carousel-inner">
                     <div class="carousel-item active">
-                      <img src="img/Bhyatikan.jpg" class="d-block w-100" alt="A Capital de Ellidah">
-
-                      <!-- tirar classe d-none -->
+                      <img src="/img/Bhyatikan.jpg" class="d-block w-100" alt="A Capital de Ellidah">
 
                       <div class="carousel-caption d-md-block one">
                         <h2>APOCALIPSE I</h2>
@@ -81,7 +78,7 @@
                       </div>
                     </div>
                     <div class="carousel-item">
-                      <img src="img/Zenite.jpg" class="d-block w-100" alt="O Zenite Bélico">
+                      <img src="/img/Zenite.jpg" class="d-block w-100" alt="O Zenite Bélico">
                       <div class="carousel-caption d-md-block two">
                         <h2>O Resgate do Diplomata</h2>
                         <p>O mistério dos Demônios de Helldia</p>
@@ -89,7 +86,7 @@
                       </div>
                     </div>
                     <div class="carousel-item">
-                      <img src="img/Medrel.jpg" class="d-block w-100" alt="Medrel, a utopia submaritma">
+                      <img src="/img/Medrel.jpg" class="d-block w-100" alt="Medrel, a utopia submaritma">
                       <div class="carousel-caption d-md-block three">
                         <h2>As Profundezas do Conhecimento</h2>
                         <p>Da Serpentina até as profundezas do mar, até onde o desespero do conhecimento se extende?</p>
@@ -97,7 +94,7 @@
                       </div>
                     </div>
                     <div class="carousel-item">
-                      <img src="img/Artista.jpg" class="d-block w-100" alt="O Artista">
+                      <img src="/img/Artista.jpg" class="d-block w-100" alt="O Artista">
                       <div class="carousel-caption d-md-block four">
                         <h2>A Semana de Arte</h2>
                         <p>A melodia sangrenta do Artista</p>
@@ -105,7 +102,7 @@
                       </div>
                     </div>
                     <div class="carousel-item">
-                      <img src="img/Yamahachi.jpg" class="d-block w-100" alt="O Yamahachi">
+                      <img src="/img/Yamahachi.jpg" class="d-block w-100" alt="O Yamahachi">
                       <div class="carousel-caption d-md-block five">
                         <h2>A Lenda de Yamahachi</h2>
                         <p>Parar uma constelação era apenas o aperitivo para essa lenda antiga</p>
@@ -113,7 +110,7 @@
                       </div>
                     </div>
                     <div class="carousel-item">
-                      <img src="img/Cemiterio.jpg" class="d-block w-100" alt="O Cemitério dos Dragões">
+                      <img src="/img/Cemiterio.jpg" class="d-block w-100" alt="O Cemitério dos Dragões">
                       <div class="carousel-caption d-md-block six">
                         <h2>A Justiça dos Famintos</h2>
                         <p>De dentro das entranhas do culto o terror é ainda maior</p>
@@ -121,15 +118,15 @@
                       </div>
                     </div>
                     <div class="carousel-item">
-                      <img src="img/Zodresh.jpeg" class="d-block w-100" alt="Zodresh, Capital de Djinkoh">
+                      <img src="/img/Zodresh.jpeg" class="d-block w-100" alt="Zodresh, Capital de Djinkoh">
                       <div class="carousel-caption d-md-block seven">
                         <h2>A Ambição de Uhm</h2>
                         <p>As partes mais podres de Zodresh não podem ser escondidas pelo seu Neon ofuscante</p>
-                        <a href="#" class="main-btn">Ver Arco</a>
+                        <a href="/templates/A_Ambicao_de_Uhm.html" class="main-btn">Ver Arco</a>
                       </div>
                     </div>
                     <div class="carousel-item">
-                      <img src="img/Baile.jpg" class="d-block w-100" alt="O Baile">
+                      <img src="/img/Baile.jpg" class="d-block w-100" alt="O Baile">
                       <div class="carousel-caption d-md-block eight">
                         <h2>O Banquete Vermelho</h2>
                         <p>As Festas da Aristocracia de Atlan, sempre regadas ao tinto</p>
@@ -154,10 +151,10 @@
         <div class="container">
             <div class="row">
               <div class="col-12">
-                <h3 class="main-title">Sobre o RPG</h3>
+                <h3 id="Sobre-o-RPG" class="main-title">Sobre o RPG</h3>
               </div>
               <div class="col-md-6">
-                <img class="img-fluid" src="img/Otarios.jpeg" alt="Os Otários">
+                <img class="img-fluid" src="/img/Otarios.jpeg" alt="Os Otários">
               </div>
               <div class="col-md-6">
                 <h3 class="about-title">Os mistérios da terra dos dragões:</h3>
@@ -182,7 +179,7 @@
        <!-- Personagens -->
 
        <div id="services-area">
-        <div class="container">
+        <div id="characters" class="container">
           <div class="row">
             <div class="col-12">
                 <h3 class="main-title">Personagens Atuais</h3>
@@ -254,7 +251,7 @@
             </div>
             <div class="col-md-3">
               <div class="card bottom-card">
-                <img src="img/Dani.jpeg" class="card-img-top" alt="Imagem de Perfil 1">
+                <img src="/img/Dani.jpeg" class="card-img-top" alt="Imagem de Perfil 1">
                 <div class="card-body">
                   <h5 class="card-title">Dani</h5>
                   <p class="card-text">O tal do Agulheta Amassado</p>
@@ -263,7 +260,7 @@
             </div>
             <div class="col-md-3">
               <div class="card bottom-card">
-                <img src="img/Be.jpeg" class="card-img-top" alt="Imagem de Perfil 2">
+                <img src="/img/Be.jpeg" class="card-img-top" alt="Imagem de Perfil 2">
                 <div class="card-body">
                   <h5 class="card-title">Bê</h5>
                   <p class="card-text">O tal do Albedo Shonen</p>
@@ -272,7 +269,7 @@
             </div>
             <div class="col-md-3">
               <div class="card bottom-card">
-                <img src="img/Thiagao.jpeg" class="card-img-top" alt="Imagem de Perfil 3">
+                <img src="/img/Thiagao.jpeg" class="card-img-top" alt="Imagem de Perfil 3">
                 <div class="card-body">
                   <h5 class="card-title">Thiagão</h5>
                   <p class="card-text">O tal do Apótema</p>
@@ -281,7 +278,7 @@
             </div>
             <div class="col-md-3">
               <div class="card bottom-card">
-                <img src="img/Cunha.jpeg" class="card-img-top" alt="Imagem de Perfil 4">
+                <img src="/img/Cunha.jpeg" class="card-img-top" alt="Imagem de Perfil 4">
                 <div class="card-body">
                   <h5 class="card-title">Cunha</h5>
                   <p class="card-text">O tal do Pablo</p>
@@ -290,7 +287,7 @@
             </div>
             <div class="col-md-3">
               <div class="card bottom-card">
-                <img src="img/Gustavo.jpeg" class="card-img-top" alt="Imagem de Perfil 4">
+                <img src="/img/Gustavo.jpeg" class="card-img-top" alt="Imagem de Perfil 4">
                 <div class="card-body">
                   <h5 class="card-title">Gustavão</h5>
                   <p class="card-text">O tal do Mestre Main Monge</p>
@@ -299,7 +296,7 @@
             </div>
             <div class="col-md-3">
               <div class="card bottom-card">
-                <img src="img/Henrique.jpeg" class="card-img-top" alt="Imagem de Perfil 4">
+                <img src="/img/Henrique.jpeg" class="card-img-top" alt="Imagem de Perfil 4">
                 <div class="card-body">
                   <h5 class="card-title">Henricão</h5>
                   <p class="card-text">O tal do Senhor Tubarudo</p>
@@ -470,7 +467,7 @@
               <p>Deixe uma mensagem para que o Clodoaldo nos entregue:</p>
 
               <div class="clodoaldo">
-                <img src="img/pigeon.jpg" alt="Clodoaldo, O pombo" style="width:175px;height:175px;">
+                <img src="/img/pigeon.jpg" alt="Clodoaldo, O pombo" style="width:175px;height:175px;">
               </div>
             </div>
             <div class="col-md-6" id="contact-form">
@@ -484,7 +481,7 @@
           </div>
 
       </div>
-      <img src="img/DrakoniaLogoPNG.png" alt="Logo, Logo" style="width:250px;height:250px;">
+      <img src="/img/DrakoniaLogoPNG.png" alt="Logo, Logo" style="width:250px;height:250px;">
     </div>
     <div id="copy-area">
       <div class="container">
@@ -497,6 +494,6 @@
     </div>
   </footer>
   <!-- Scripts do projeto -->
-    <script src="scripts.js"></script>
+    <script src="/static/scripts.js"></script>
     </body>
 </html>

@@ -911,4 +911,8 @@ input[data-description="3050"]:checked ~ #timeline-descriptions-wrapper h5[data-
 
 }
 
+/* Wiki Layout */
 
+#wiki-area {
+  margin-top: 150px;
+}
