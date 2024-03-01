@@ -509,6 +509,7 @@ input[data-description="3050"]:checked ~ #timeline-descriptions-wrapper h5[data-
     color: #ECF0F1;
   }
   .dot-info span.label {
+    visibility: hidden;
     top: calc(100% + 5px);
     left: 50%;
     transform: translateX(-50%);
@@ -522,9 +523,9 @@ input[data-description="3050"]:checked ~ #timeline-descriptions-wrapper h5[data-
     text-align: center;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 425px) {
   .input-flex-container {
-    width: 340px;
+    width: 300px;
   }
 }
 @media (max-width: 400px) {
@@ -789,6 +790,30 @@ input[data-description="3050"]:checked ~ #timeline-descriptions-wrapper h5[data-
 
 @media(max-width: 425px) {
 
+
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  /* Nav Bar */
+  #nav {
+    height : 140px;
+  }
+
+  #--- {
+    background-image: url("img/toggle.png");
+    background-size: 54.5px;
+  }
+
+  #navbar-links {
+    background-color: #240046;
+  }
+
+  .nav-link {
+    text-align: right;
+  }
+
   /* slider */
   #mainSlider {
     margin-top: 90px;
@@ -801,6 +826,9 @@ input[data-description="3050"]:checked ~ #timeline-descriptions-wrapper h5[data-
   #mainSlider .carousel-caption h2 {
     font-size: 18px;
     margin-bottom: 40px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
   }
 
   #mainSlider .carousel-caption p {
@@ -808,7 +836,9 @@ input[data-description="3050"]:checked ~ #timeline-descriptions-wrapper h5[data-
   }
 
   .carousel-caption .main-btn {
-
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
     font-size: 14px;
   }
 
